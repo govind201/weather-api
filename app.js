@@ -34,9 +34,9 @@ const processData = (data) => {
   };
 }
 
-const form = document.getElementById("weatherForm");
-const locationInput = document.getElementById("locationInput");
-const weatherInfo = document.getElementById("weatherInfo");
+const form = document.getElementById("weather-form");
+const locationInput = document.getElementById("location-input");
+const weatherInfo = document.getElementById("weather-info");
 
 form.addEventListener("submit", (event) => {
   event.preventDefault();
