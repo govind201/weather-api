@@ -52,7 +52,6 @@ const displayWeatherInfo = (data) => {
       <p>Description: ${data.description}</p>
       <p>Humidity: ${data.humidity}%</p>
     `;
-
   weatherInfo.style.display = "block";
 }
 
